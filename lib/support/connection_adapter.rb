@@ -1,4 +1,4 @@
-class ConnectionAdapter
+class ConnectionAdapter<Migration::ActiveRecord[5.2]
   attr_reader :adapter, :database
 
   def initialize(database, adapter="sqlite3")
